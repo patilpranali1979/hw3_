@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url("https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=");
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+        }
+             
+        .container{
+             box-shadow: 0px 10px 50px;
+        margin: auto;
+        padding: 20px;
+        width: 400px;
+        border-radius: 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        }
+        input{
+            padding: 6px;
+            border-radius: 10px;
+            border: 2px solid;
+            width: auto;
+        }
+       .c1{
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 5px;
+       }
+
+       button{
+        text-align: center;
+        background-color: lightblue;
+        font-size: 20px;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+       }
+
+       button:hover{
+        cursor: pointer;
+        background-color: green;
+        transform: scale(1.3);
+       }
+       
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form class="container" action="Form.html">
+        Name:<br>
+        <input type="text" name="" id="" required><br><br>
+
+        Email :<br>
+        <input type="email" name="" id="" required><br><br>
+
+        Password :<br>
+        <input type="password" name="" id="" required><br><br>
+
+        Confirm Password :<br>
+        <input type="password" name="" id="" required><br><br>
+
+        Age :<br>
+        <input type="number" name="" id="" required><br><br>
+
+        <div class="course">
+            Course :
+            <input class="c1" type="checkbox" name="" id=""> IT
+            <input class="c1" type="checkbox" name="" id=""> CS
+        </div><br><br>
+        <button type="submit">Register </button>
+    </form>
+
+</body>
+</html>
